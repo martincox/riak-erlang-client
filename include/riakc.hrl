@@ -69,7 +69,7 @@
                       head | deletedvclock |
                       {n_val, pos_integer()} |
                       {sloppy_quorum, boolean() |
-					  {eco_get, boolean()}}.
+					  {coord_get, boolean()}}.
 
 %% Valid request options for get requests. When `if_modified' is
 %% specified with a vclock, the request will fail if the object has
